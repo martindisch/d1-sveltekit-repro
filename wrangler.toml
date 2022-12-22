@@ -1,3 +1,6 @@
 name = "d1-sveltekit-repro"
 compatibility_date = "2022-12-22"
 
+kv_namespaces = [
+    { binding = "kv", id = "ec161eca395a4381a28dfa1943c15eb7" }
+]
