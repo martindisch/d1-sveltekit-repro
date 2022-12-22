@@ -7,7 +7,7 @@ declare namespace App {
   // interface PageData {}
   interface Platform {
     env: {
-      kv: KVNamespace;
+      KV: KVNamespace;
       DB: D1Database;
     };
   }

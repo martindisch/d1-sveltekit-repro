@@ -14,7 +14,7 @@ Demonstration of an issue with Cloudflare D1 in a SvelteKit app.
    `wrangler pages publish .svelte-kit/cloudflare`.
 7. Configure the production bindings for your project in the Cloudflare
    dashboard.
-   - KV namespace binding: `kv=d1-sveltekit-repro-kv`
+   - KV namespace binding: `KV=d1-sveltekit-repro-kv`
    - D1 database binding: `DB=d1-sveltekit-repro-db`
 8. Publish again to trigger a new deployment that has access to the bindings
    with `wrangler pages publish .svelte-kit/cloudflare`.
