@@ -1,6 +1,17 @@
 name = "d1-sveltekit-repro"
 compatibility_date = "2022-12-22"
 
+account_id = "ddc432a56044bef92b27a42975d4c42e"
+main = "./.svelte-kit/cloudflare/_worker.js"
+
+[site]
+bucket = "./.svelte-kit/cloudflare"
+
+[build]
+command = "npm run build"
+
+workers_dev = true
+
 kv_namespaces = [
     { binding = "KV", id = "ec161eca395a4381a28dfa1943c15eb7" }
 ]
