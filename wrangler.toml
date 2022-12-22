@@ -4,3 +4,8 @@ compatibility_date = "2022-12-22"
 kv_namespaces = [
     { binding = "kv", id = "ec161eca395a4381a28dfa1943c15eb7" }
 ]
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "d1-sveltekit-repro-db"
+database_id = "c88ba74e-338b-45d5-aaa3-961c8b4dc585"

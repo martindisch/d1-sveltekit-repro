@@ -8,6 +8,7 @@ declare namespace App {
 	interface Platform {
 		env: {
 			kv: KVNamespace,
+			DB: D1Database,
 		}
 	}
 }
