@@ -2,6 +2,11 @@
 
 Demonstration of an issue with Cloudflare D1 in a SvelteKit app.
 
+## Update 2023-02-22
+
+It actually works now with the `--bundle` flag.
+Run `wrangler pages publish .svelte-kit/cloudflare --bundle` to try it.
+
 ## Repro
 
 1. Make sure you have `wrangler` installed locally and are logged in.
